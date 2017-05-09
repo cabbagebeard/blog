@@ -3,6 +3,7 @@
 <head>
   <title>Workspace</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag 'application', 'https://fonts.googleapis.com/css?family=Raleway:400,700' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
@@ -19,7 +20,10 @@
     <ul>
       <li class="category">Social</li>
       <li><a href="http://github.com/cabbagebeard" target= "_blank">GitHub</a></li>
+      <li><a href="mailto:kwindisch1992@gmail.com">Email</a></li>
     </ul>
+    
+    <p class="sign_in">Admin login</p>
     
   </div>
 <%= yield %>
