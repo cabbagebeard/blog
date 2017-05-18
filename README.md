@@ -1,2 +1,3 @@
-# blog
-Building a blog using Rails
+# Personal Blog
+
+- This is a personal blog I am building that features an admin panel (just for me)
